@@ -4,5 +4,5 @@ var meals = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak and
 // deleted, `false` otherwise
 delete meals.dinner; // true
  
-meals
+console.log(meals)
 // returns { breakfast: "oatmeal", lunch: "turkey sandwich" }
