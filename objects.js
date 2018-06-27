@@ -1,1 +1,1 @@
-playlist.song='My Sweet'
+var playlist={.song='My Sweet'
