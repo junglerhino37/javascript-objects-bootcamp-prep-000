@@ -9,7 +9,7 @@ recipe // { eggs: 3 }
 
 function updateObjectWithKeyAndValue(obj, key, value) {
  
-  return Object.assign( obj, { [key]: value })
+  return Object.assign({}, obj, { [key]: value })
 }
   // it's important that we merge everything into
   // a new object such as the empty {}. 
