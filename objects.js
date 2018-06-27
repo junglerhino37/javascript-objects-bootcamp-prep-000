@@ -2,7 +2,7 @@ var meals = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak and
  
 // the `delete` operator returns `true` if it has successfully
 // deleted, `false` otherwise
-delete meals.dinner; // true
+console.log(delete meals.dinner); // true
  
 console.log(meals)
 // returns { breakfast: "oatmeal", lunch: "turkey sandwich" }
