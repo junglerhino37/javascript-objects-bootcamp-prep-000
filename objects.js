@@ -1,2 +1,1 @@
-var playlist
-playlist['song']='mysweet'
+playlist.song='My Sweet'
