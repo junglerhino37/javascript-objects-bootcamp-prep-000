@@ -1,4 +1,6 @@
-updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup')
+const recipe = { eggs: 3 }
+
+ updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup')
 
 
 // returns `{ eggs: 3, chocolate: '1 cup' }`
