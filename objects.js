@@ -1,6 +1,6 @@
 var playlist={Django:'My Sweet', Jimmy:"Undecided"}
 updatePlaylist(playlist,'Fappy','Lavende')
-removeFromPlaylist('Jimmy')
+removeFromPlaylist(playlist,'Jimmy')
 console.log(playlist)
 
 function updatePlaylist(obj,key,value){
