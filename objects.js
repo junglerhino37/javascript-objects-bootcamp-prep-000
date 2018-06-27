@@ -1,1 +1,2 @@
-var playlist['song']='mysweet'
+var playlist
+playlist['song']='mysweet'
