@@ -1,6 +1,8 @@
 var playlist={Django:['My Sweet','SBR'], Jimmy:"Undecided"}
-console.log(playlist.Django)
+updatePlaylist(playlist,'Fappy','Lavende')
 
-function updatePlaylist(){
-  return
+console.log(playlist)
+
+function updatePlaylist(obj,key,value){
+  playlist.assign(key,value)
 }
