@@ -1,7 +1,7 @@
 const recipe = { eggs: 3 }
 
  updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup')
-
+console.log(recipe)
 
 // returns `{ eggs: 3, chocolate: '1 cup' }`
  
