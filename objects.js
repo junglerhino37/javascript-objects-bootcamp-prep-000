@@ -1,2 +1,2 @@
 var playlist={firstSong:'My Sweet', secondSong:"Undecided"}
-console.log(playlist)
+console.log(playlist.firstSong)
