@@ -4,5 +4,5 @@ updatePlaylist(playlist,'Fappy','Lavende')
 console.log(playlist)
 
 function updatePlaylist(obj,key,value){
-  playlist.assign(key,value)
+  playlist[key]=value
 }
