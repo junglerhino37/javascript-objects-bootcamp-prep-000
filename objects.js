@@ -1,5 +1,5 @@
-var playlist={firstSong:'My Sweet', secondSong:"Undecided"}
-console.log(playlist.firstSong)
+var playlist={Django:'My Sweet', Jimmy:"Undecided"}
+console.log(playlist.Django)
 
 function updatePlaylist(){
   return
