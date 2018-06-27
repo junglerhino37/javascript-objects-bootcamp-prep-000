@@ -1,17 +1,8 @@
-function updateObjectWithKeyAndValue(obj, key, value) {
+var meals = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak and potatoes" };
  
-  return Object.assign({}, obj, { [key]: value })
-}
-  // it's important that we merge everything into
-  // a new object such as the empty {}. 
-    // Otherwise, the object obj will be modified. 
-    // Test what happens if this line was written as:
-    // return Object.assign(obj, { [key]: value })
+// the `delete` operator returns `true` if it has successfully
+// deleted, `false` otherwise
+delete meals.dinner; // true
  
-const recipe = { eggs: 3 }
- 
-updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup')
-
-// returns `{ eggs: 3, chocolate: '1 cup' }`
- 
-recipe // { eggs: 3 }
+meals;
+// returns { breakfast: "oatmeal", lunch: "turkey sandwich" }
